@@ -1,0 +1,34 @@
+@CHARSET "ISO-8859-1";
+acidjs-xlang,
+acidjs-xlang div,
+acidjs-xlang li *
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+ 
+acidjs-xlang li *
+{
+    white-space: nowrap;
+}
+ 
+acidjs-xlang,
+acidjs-xlang *
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    outline: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+ 
+acidjs-xlang ul,
+acidjs-xlang div
+{
+    border: solid 1px #666;
+    background: #fff;
+    transition: all .25s ease-in;
+}

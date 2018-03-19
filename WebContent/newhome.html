@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.imge{background: url("C:\Users\Admin\Documents\App_info6\WebContent\image\finallogo.png");
+    background-size: 80px 60px;
+    background-repeat: no-repeat;
+    padding-top: 40px;}
+.w3-navbar li a {
+    padding: 16px;
+    float: left;
+}
+</style>
+<body>
+<div>
+    <img class=imge src="C:\Users\Admin\Documents\App_info6\WebContent\image\finallogo.png" alt="Avatar" width="300" height="190">
+  </div>
+<div class="w3-top">
+  <ul class="w3-navbar w3-white w3-card-2" id="myNavbar">
+ <li>
+      <a href="" class="w3-wide">INFO-6</a>
+    </li>    
+    <!-- Right-sided navbar links -->
+    <li class="w3-right w3-hide-small">
+      <a href="">HOME</a>
+      <a href="">PRODUCTS</a>
+      <a href=""> COMPANY</a>
+      <a href="">CONTACT US</a>
+    </li>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+    <li>
+      <a href="javascript:void(0)" class="w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars w3-padding-right w3-padding-left"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  <div class="w3-display-top w3-center">
+    <h1 class="w3-jumbo w3-animate-top">NEW HOME</h1>
+</div>
+<form class= "w3-center">
+ <b> *Home Name:<input type="text" name="homename" id="homename"/><br><br>
+     *Address  :<input type="text" name="address" id="address"/><br><br>
+     *Email    :<input type="text" name="email" id="email"/><br><br>
+ </b>
+  <input type="submit" onclick="validateForm()"/>
+</form>
+
+</body>
+</html>
